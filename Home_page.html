@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Asim Sharma(असिम शर्मा)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.start{
+    width:5%;
+}
+.left {
+  width: 20%;
+}
+
+.mid {
+  width: 55%;
+}
+.right{
+    width:20%
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#">Career</a></li>
+      <li><a href="#">Research</a></li>
+      <li><a href="#">Others</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row">
+    <div class="column start" style="background-color: #aaa;"></div>
+    <div class="column left" style="background-color:#aaa;">
+        <h3>Asim Sharma(असिम शर्मा)</h3>
+        <img src="profile.jpg" class='img-circle' width="200" height="150"><br>
+        <a href="asn32@umsystem.edu">Contact:asn32@umsystem.edu</a><br>
+        <a href="https://cs.mst.edu">Computer Science Department, S&T</a>
+    </div>
+    <div class="column mid" style="background-color:#bbb;">
+        <h2>About me</h2>
+        <hr>
+        <p>I am a graduate research assistant and PhD. student in <a href="https://www.mst.edu">Missouri S&T</a>. I and currently working on the markov chain based classical algorithm and way to implement the 
+        algorithm using quantum walk. Before this I was working on the qubit routing problem in semiconductor based quantum architecture. My PhD. advisor is <a href='https://www.avahbanerjee.com'>Avah Banerjee</a></p>
+
+        <p>Before that I completed my bachelors in computer engineering from <a href="https://www.ioepas.edu.np">Pashchimanchal Campus,Pokhara, Nepal</a></p>
+    </div>
+    <div class="column right" style="background-color:#bbb;"></div>
+</div>
+
+
+</body>
+
